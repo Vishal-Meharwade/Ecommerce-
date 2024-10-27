@@ -67,3 +67,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+/* Add this to your CSS file */
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scroll-container img {
+  max-width: 100%; /* Adjust as needed */
+  height: auto;
+  margin: 0 10px; /* Space between images */
+}

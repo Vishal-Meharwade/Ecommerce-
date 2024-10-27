@@ -44,7 +44,7 @@ function AdminDashboard() {
       <Button onClick={handleUploadFeatureImage} className="mt-5 w-full">
         Upload
       </Button>
-      <div className="flex flex-col gap-4 mt-5">
+      {/* <div className="flex flex-col gap-4 mt-5">
         {featureImageList && featureImageList.length > 0
           ? featureImageList.map((featureImgItem) => (
               <div className="relative">
@@ -55,7 +55,7 @@ function AdminDashboard() {
               </div>
             ))
           : null}
-      </div>
+      </div> */}
     </div>
   );
 }
